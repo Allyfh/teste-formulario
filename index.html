@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Adicione seus dados abaixo de maneira incorreta e envie</h1>
+    <form action="arquivo.php" method="post" autocomplete="on">
+        <p>
+            <label for="iname">Nome</label>
+            <input type="text" name="name" id="iname" placeholder="Nome completo" minlength="3" maxlength="35">
+        </p>
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" placeholder="Senha do cartão" minlength="8" required>
+        </p>
+        <p>
+            <label for="inascimento">Data de Nascimento</label>
+            <input type="date" name="nascimento" id="inascimento">
+        </p>
+        <p>
+           <label for="icelular">Número do Celular</label>
+           <input type="number" name="celular" id="icelular">
+        </p>
+        <p>
+            <label for="ihora">Hórario de Dormir</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        
+        <p>
+            <label for="ienviar"></label>
+            <input type="submit" value="Enviar">
+        </p>
+         <p>
+            <label for="ilimpar"></label>
+            <input type="reset" value="Limpar">
+         </p>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
